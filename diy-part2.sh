@@ -44,7 +44,7 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 #sed -i 's/\/bin\/login/\/bin\/login -f root/' /etc/config/ttyd
 
 # 7.修正连接数（by ベ七秒鱼ベ）
-sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
+#sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
 
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
 
