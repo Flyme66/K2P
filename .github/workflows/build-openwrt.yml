@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt.git
+  REPO_URL: https://github.com/Flyme66/openwrt.git
   REPO_BRANCH: 19.07
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -81,8 +81,8 @@ jobs:
         ./scripts/feeds install -a -p nas
         ./scripts/feeds install -a -p nas_luci
         
-        #git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
-        #git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+        git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
+        git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
         git clone https://github.com/wiwizcom/WiFiPortal package/wifidog-wiwiz
         
         
